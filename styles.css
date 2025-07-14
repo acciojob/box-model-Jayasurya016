@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+ body
+{
+	background-color:#f0f0f0;
+	font-family:sans-serif;
+	padding:40px;
+}
+
+.container
+{
+	width:600px;
+	margin:auto;
+	background-color:#ccc;
+	border-radius: 12px;
+	padding:20px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.block
+{
+	width:150px;
+	height:150px;
+	border-radius:8px;
+}
+
+.green
+{
+	background-color:#4CAF50;
+}
+
+.yellow
+{
+	background-color:#FFEB3B;
+}
+
+.red
+{
+	background-color:#F44336;
+}
