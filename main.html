@@ -8,12 +8,45 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="container">
-		<div class="block green"></div>
-		<div class="block yellow"></div>
-		<div class="block red"></div>
-	</div>
-    <script type="text/javascript" src="./script.js">
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Lights</title>
+  <style>
+    .box {
+      background-color: lightgray;
+      border: 2px solid black; /* black border */
+      border-radius: 25px;     /* rounded corners */
+      padding: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 300px;
+      height: 120px;
+      margin: 50px auto;
+    }
+
+    .light {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;      /* make circle */
+    }
+
+    .green { background-color: green; }
+    .yellow { background-color: yellow; }
+    .red { background-color: red; }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <div class="light green"></div>
+    <div class="light yellow"></div>
+    <div class="light red"></div>
+  </div>
+
+<script type="text/javascript" src="./script.js">
 </script>
 
 </body>
