@@ -1,27 +1,25 @@
 /*  your css code here. If applicable */
- body
-{
-	background-color:#f0f0f0;
-	font-family:sans-serif;
-	padding:40px;
-}
+
 
 .container
 {
-	width:600px;
-	margin:auto;
-	background-color:#ccc;
-	border-radius: 12px;
-	padding:20px;
+	width:400px;
+	background-color: #ccc;
+	border-radius: 40px;
+	padding: 30px 10px;
 	display:flex;
-	justify-content:space-between;
+	justify-content: center;
+	align-items: center;
+	margin: 40px auto;
 }
 
 .block
 {
-	width:150px;
-	height:150px;
-	border-radius:8px;
+	width:100px;
+	height:100px;
+	margin:0 8px;
+	display: inline-block;
+	border-radius: 50%;
 }
 
 .green
